@@ -27,7 +27,7 @@ public class MailSendReceiverJunit {
 
 		// creating toRecipients array and populating it
 		ArrayList<String> toRecipients = new ArrayList<String>();
-		toRecipients.add("M0737019@waldo.dawsoncollege.qc.ca");
+		toRecipients.add("@waldo.dawsoncollege.qc.ca");
 
 		// creating ccRecipients array and populating it
 		ArrayList<String> ccRecipients = null;
@@ -35,12 +35,12 @@ public class MailSendReceiverJunit {
 		// creating bccRecipients array and populating it
 		ArrayList<String> bccRecipients = null;
 
-		Mail mail = new Mail(4, "M0737019@waldo.dawsoncollege.qc.ca",
+		Mail mail = new Mail(4, "@waldo.dawsoncollege.qc.ca",
 				toRecipients, ccRecipients, bccRecipients,
 				"subject junit test", "IT WORKS!!", new Date(), 1);
 
 
-		Mail mail2 = new Mail(4, "M0737019@waldo.dawsoncollege.qc.ca",
+		Mail mail2 = new Mail(4, "@waldo.dawsoncollege.qc.ca",
 				toRecipients, ccRecipients, bccRecipients,
 				"subject junit test", "IT WORKS!! version 2", new Date(), 1);
 		
@@ -86,7 +86,7 @@ public class MailSendReceiverJunit {
 
 		// creating toRecipients array and populating it
 		ArrayList<String> toRecipients = new ArrayList<String>();
-		toRecipients.add("M0737019@waldo.dawsoncollege.qc.ca");
+		toRecipients.add("@waldo.dawsoncollege.qc.ca");
 
 		// creating ccRecipients array and populating it
 		ArrayList<String> ccRecipients = null;
@@ -94,12 +94,12 @@ public class MailSendReceiverJunit {
 		// creating bccRecipients array and populating it
 		ArrayList<String> bccRecipients = null;
 
-		Mail mail = new Mail(4, "M0737019@waldo.dawsoncollege.qc.ca",
+		Mail mail = new Mail(4, "@waldo.dawsoncollege.qc.ca",
 				toRecipients, ccRecipients, bccRecipients,
 				"subject junit test", "IT WORKS!!", new Date(), 1);
 
 
-		Mail mail2 = new Mail(4, "M0737019@waldo.dawsoncollege.qc.ca",
+		Mail mail2 = new Mail(4, "@waldo.dawsoncollege.qc.ca",
 				toRecipients, ccRecipients, bccRecipients,
 				"subject junit test", "IT WORKS!! version 2", new Date(), 1);
 		
